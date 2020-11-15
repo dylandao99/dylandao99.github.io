@@ -9,6 +9,7 @@ import {
   MDBFooter,
   MDBNavLink,
   MDBTooltip,
+  MDBContainer,
   MDBIcon
 } from 'mdbreact';
 
@@ -53,15 +54,25 @@ class Navbar extends React.Component {
               onClick={this.toggleCollapse('mainNavbarCollapse')}
             />
             <MDBCollapse id='mainNavbarCollapse' isOpen={collapseID} navbar>
+
+			<MDBContainer>
               <MDBNavbarNav>
-				<div className="d-flex justify-content-center">
+
+                <MDBNavItem>
+                  <MDBNavLink
+                    onClick={this.closeCollapse('mainNavbarCollapse')}
+                    to='/activities'
+                  >
+                    <h3>Experiences</h3>
+                  </MDBNavLink>
+                </MDBNavItem>
 
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                     to='/projects'
                   >
-                    <h1>Projects</h1>
+                    <h3>Projects</h3>
                   </MDBNavLink>
                 </MDBNavItem>
 
@@ -70,14 +81,15 @@ class Navbar extends React.Component {
                     onClick={this.closeCollapse('mainNavbarCollapse')}
                     to='/activities'
                   >
-                    <h1>Activities</h1>
+                    <h3>Activities</h3>
                   </MDBNavLink>
                 </MDBNavItem>
 
-				</div>
               </MDBNavbarNav>
+			</MDBContainer>
                 
 				  <MDBNavbarNav right>
+				<div className="d-flex flex-row">
                 <MDBNavItem>
                   <MDBTooltip
                     placement='bottom'
@@ -135,6 +147,7 @@ class Navbar extends React.Component {
                     <span>Resume</span>
                   </MDBTooltip>
                 </MDBNavItem>
+				</div>
               </MDBNavbarNav>
             </MDBCollapse>
           </MDBNavbar>

@@ -15,7 +15,7 @@ function ProjectCard(props){
 				<img src={props.photo} class="img-fluid rounded-lg"/>
 				<div class="d-flex flex-column mask flex-center waves-effect waves-light rgba-black-strong rounded-lg">
 					<div class="m-5">
-					<h1 className="white-text display-4">{props.title}</h1>
+					<h1 className="white-text display-5">{props.title}</h1>
 					<p1 className="white-text">
 						{props.caption}
 					</p1>
