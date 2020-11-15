@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBEdgeHeader } from "mdbreact";
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import Routes from './Routes';
 import Navbar from './components/Navbar';
 
