@@ -9,11 +9,11 @@ const photos_vivi = [
 ];
 
 const photos_ipot = [
-	{src: 'https://i.imgur.com/73EhyWy.jpg',width:3,height:4},
+	{src: 'https://i.imgur.com/73EhyWy.jpg',width:4,height:3},
 ];
 
 const photos_turtle = [
-	{src: 'https://i.imgur.com/QOOIK5N.png',width:3,height:4},
+	{src: 'https://i.imgur.com/QOOIK5N.png',width:4,height:3},
 ];
 
 export {

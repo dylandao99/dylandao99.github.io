@@ -10,9 +10,6 @@ import {
   MDBBtn
 } from 'mdbreact';
 
-import logo from "../assets/logo.png";
-//import MenuLink from '../components/menuLink';
-
 const CSSPage = () => {
   return (
     <>

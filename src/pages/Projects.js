@@ -20,11 +20,12 @@ import {
 
 import ProjectCard from '../components/ProjectCard.js';
 
-import {photos_vivi, photos_ballpit, photos_ipot} from '../Photos.js';
-
-import ballpit from '../assets/ballpit-1.png'
-import ipot from '../assets/ipot-lite-1.jpg'
-import aer201 from '../assets/aer201-1.png'
+import {
+	photos_vivi, 
+	photos_ballpit, 
+	photos_ipot,
+	photos_turtle
+} from '../Photos.js';
 
 class Home extends React.Component {
 
@@ -58,7 +59,7 @@ class Home extends React.Component {
 
 	  				<ProjectCard 
 	  					link='/projects/turtle-ball-dispensing-robot' 
-	  					photo={aer201}
+	  					photo={photos_turtle[0].src}
 	  					title="'Turtle' Ball-Dispensing Bot"
 	  					caption="If you squint, it sort of looks like a turtle."
 	  				/> 
