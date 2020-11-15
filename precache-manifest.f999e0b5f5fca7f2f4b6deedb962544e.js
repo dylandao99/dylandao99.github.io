@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e5929ba0a8abe61ffefc2e8c10e5a75",
+    "revision": "a02376ffe508c1a4154c6d8509cb0ead",
     "url": "/index.html"
   },
   {
-    "revision": "46f6874c9e277088faf7",
+    "revision": "53cf77576f7487521548",
     "url": "/static/css/2.02dc858a.chunk.css"
   },
   {
-    "revision": "d34a0738b034cc08d9ec",
-    "url": "/static/css/main.f31c42d9.chunk.css"
+    "revision": "d91248d4bd0a3c54877d",
+    "url": "/static/css/main.7331625f.chunk.css"
   },
   {
-    "revision": "46f6874c9e277088faf7",
-    "url": "/static/js/2.01eae408.chunk.js"
+    "revision": "53cf77576f7487521548",
+    "url": "/static/js/2.00f35fb1.chunk.js"
   },
   {
     "revision": "1b9cc396521eecb2045c787139670fba",
-    "url": "/static/js/2.01eae408.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.00f35fb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d34a0738b034cc08d9ec",
-    "url": "/static/js/main.26ff4774.chunk.js"
+    "revision": "d91248d4bd0a3c54877d",
+    "url": "/static/js/main.eaf5ef7d.chunk.js"
   },
   {
     "revision": "d3124b27bbb5b4089688",
     "url": "/static/js/runtime-main.7974d308.js"
-  },
-  {
-    "revision": "401d5549541b7d2738a1eb40b738b29c",
-    "url": "/static/media/aer201-1.401d5549.png"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -38,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/static/media/arrow_right.8ef6a08c.svg"
-  },
-  {
-    "revision": "1fcdda07d632722a4e8f02184bebb124",
-    "url": "/static/media/ballpit-1.1fcdda07.png"
   },
   {
     "revision": "2f12242375edd68e9013ecfb59c672e9",
@@ -102,21 +94,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e1ed89b6ccb8ce41faf5cb672677105",
     "url": "/static/media/fa-solid-900.8e1ed89b.woff2"
-  },
-  {
-    "revision": "2f4cdd0a1ff477e81bfe21714f8cb0ed",
-    "url": "/static/media/ipot-lite-1.2f4cdd0a.jpg"
-  },
-  {
-    "revision": "ff55a21268fb081d150afb258c68d127",
-    "url": "/static/media/vivi-1.ff55a212.jpg"
-  },
-  {
-    "revision": "3c76d922a17db63de9ee0913ba3cb0d0",
-    "url": "/static/media/vivi-2.3c76d922.jpg"
-  },
-  {
-    "revision": "e533e7841241221bb5b0131999f6cc8c",
-    "url": "/static/media/vivi-3.e533e784.jpg"
   }
 ]);
