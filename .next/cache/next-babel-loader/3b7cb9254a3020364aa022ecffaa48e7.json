@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\";\nimport ReactDOM from \"react-dom\";\nimport App from \"./App\";\nit(\"renders without crashing\", () => {\n  const div = document.createElement(\"div\");\n  ReactDOM.render(__jsx(App, null), div);\n});","map":null,"metadata":{},"sourceType":"module"}

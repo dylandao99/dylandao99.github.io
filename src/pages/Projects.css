@@ -1,0 +1,19 @@
+.sectionPage {
+  position: relative;
+  top: -15px;
+  margin-bottom: -125px;
+}
+
+.sectionPage::after {
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+  filter: opacity(.1);
+}
+
+.freebird {
+	margin-top: -180px;
+}
