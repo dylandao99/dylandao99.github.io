@@ -16,7 +16,6 @@ import logo from "../assets/logo.png";
 const CSSPage = () => {
   return (
     <>
-    <MDBEdgeHeader color='indigo' className='sectionPage' />
       <MDBAnimation type='zoomIn' duration='500ms'>
       <MDBContainer>
 	  	<h1>Activities Coming Soon!</h1>

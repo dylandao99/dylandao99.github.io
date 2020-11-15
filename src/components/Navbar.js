@@ -45,7 +45,7 @@ class Navbar extends React.Component {
     const { collapseID } = this.state;
 
 		return(
-          <MDBNavbar className="shadow-none" color='indigo' dark expand='md' fixed='top' scrolling>
+          <MDBNavbar className="shadow-none" color='white' light expand='md' fixed='top' scrolling>
             <MDBNavbarBrand href='/' className='py-0 font-weight-bold' onClick={this.closeCollapse('mainNavbarCollapse')}>
               <h2 className='align-middle'>Hi, I'm Dylan!</h2>
             </MDBNavbarBrand>
