@@ -4,6 +4,7 @@ import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Activities from './pages/Activities';
+import Experiences from './pages/Experiences';
 
 //projects
 import Ballpit from './pages/Ballpit.js';
@@ -16,6 +17,7 @@ class Routes extends React.Component {
     return (
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/experiences' component={Experiences} />
         <Route exact path='/projects' component={Projects} />
         <Route exact path='/activities' component={Activities} />
 

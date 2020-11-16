@@ -61,7 +61,7 @@ class Navbar extends React.Component {
                 <MDBNavItem>
                   <MDBNavLink
                     onClick={this.closeCollapse('mainNavbarCollapse')}
-                    to='/activities'
+                    to='/experiences'
                   >
                     <h3>Experiences</h3>
                   </MDBNavLink>
