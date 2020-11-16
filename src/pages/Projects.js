@@ -35,6 +35,7 @@ class Home extends React.Component {
 	  <MDBFreeBird className="freebird">
       <MDBAnimation type='fadeInUp' duration='1000ms'>
 		  <h1 className='display-3 font-weight-bold text-center'>Projects</h1>
+	  		<h3 className='text-center'>Pictures and videos inside!</h3>
       </MDBAnimation>
 	  </MDBFreeBird>
 

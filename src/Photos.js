@@ -19,6 +19,7 @@ const photos_vivi = [
 
 const photos_ipot = [
 	{src: 'https://i.imgur.com/73EhyWy.jpg',width:4,height:3,title:"Presenting the iPot Lite."},
+	{src: 'https://i.imgur.com/NagtEE1.jpg',width:4,height:3,title:"We won Best Unconnected Hack...at a Connectivity Hackathon."},
 	{src: 'https://i.imgur.com/K01u1M9.jpg',width:4,height:3,title:"Tadah!"},
 	{src: 'https://i.imgur.com/rqHbrqO.jpg',width:4,height:3,title:"Hard at work on a messy table."},
 	{src: 'https://i.imgur.com/VfrlGks.jpg',width:4,height:3,title:"Cooking videos make great accompaniment."},

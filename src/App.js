@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBEdgeHeader } from "mdbreact";
+import { MDBBtn, MDBCol, MDBContainer, MDBRow, MDBEdgeHeader, MDBFooter} from "mdbreact";
 
 import { HashRouter as Router } from 'react-router-dom';
 import Routes from './Routes';
