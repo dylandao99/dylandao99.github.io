@@ -20,9 +20,11 @@ import {photos_vivi as photos} from '../Photos.js'
 
 function Vivi() {
   return (
+	  window.scrollTo(0,0),
     <>
       <MDBAnimation type='zoomIn' duration='500ms'>
       <MDBContainer>
+	  	<MDBRow className="m-2">
               <MDBCol
                 md='12'
                 className='mx-auto float-none white z-depth-1 py-2 px-2'
@@ -41,6 +43,22 @@ function Vivi() {
                   </p>
                 </MDBCardBody>
 	  		</MDBCol>
+	  	</MDBRow>
+
+	  	<MDBRow center className="m-2">
+	  	<MDBCol md='4'>
+		<video class="video-fluid z-depth-1" autoplay loop controls muted>
+		  <source src="https://i.imgur.com/cRzcRYl.mp4" type="video/mp4" />
+		</video>
+	  	</MDBCol>
+
+	  	<MDBCol md='4'>
+		<video class="video-fluid z-depth-1" autoplay loop controls muted>
+		  <source src="https://i.imgur.com/xjiT0U7.mp4" type="video/mp4" />
+		</video>
+	  	</MDBCol>
+	  	</MDBRow>
+
 
 	  	<LightboxGallery photoList={photos}/>
 

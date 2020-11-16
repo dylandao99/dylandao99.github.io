@@ -16,13 +16,15 @@ import {
 } from 'mdbreact';
 import LightboxGallery from '../components/Gallery.js'
 
-import {photos_ipot as photos} from '../Photos.js';
+import {photos_ipot as photos} from '../Photos.js'
 
 function Ipot() {
   return (
+	  window.scrollTo(0,0),
     <>
       <MDBAnimation type='zoomIn' duration='500ms'>
       <MDBContainer>
+	  	<MDBRow className="m-2">
               <MDBCol
                 md='12'
                 className='mx-auto float-none white z-depth-1 py-2 px-2'
@@ -41,6 +43,17 @@ function Ipot() {
                   </p>
                 </MDBCardBody>
 	  		</MDBCol>
+	  	</MDBRow>
+
+	  	<MDBRow center className="m-2 text-center">
+	  	<MDBCol md='12'>
+		<video class="video-fluid z-depth-1" autoplay loop controls muted>
+		  <source src="https://i.imgur.com/Dx0fTkh.mp4" type="video/mp4" />
+		</video>
+	  	</MDBCol>
+
+	  	</MDBRow>
+
 
 	  	<LightboxGallery photoList={photos}/>
 
@@ -51,4 +64,3 @@ function Ipot() {
 };
 
 export default Ipot;
-

@@ -40,6 +40,17 @@ class Home extends React.Component {
 
         <MDBContainer>
                 <MDBRow className='d-flex'>
+
+                  <MDBCol md='6'>
+	  				<ProjectCard 
+	  					link='/projects/vivi-cosplay' 
+	  					photo={photos_vivi[0].src}
+	  					title='Vivi Cosplay'	
+						caption="Complete with LED-matrix eyes! I don't know why I haven't played Final Fantasy IX yet."
+	  				/> 
+
+                  </MDBCol>
+
                   <MDBCol md='6'>
 
 	  				<ProjectCard 
@@ -64,16 +75,6 @@ class Home extends React.Component {
 	  					caption="If you squint, it sort of looks like a turtle."
 	  				/> 
 	  				
-                  </MDBCol>
-
-                  <MDBCol md='6'>
-	  				<ProjectCard 
-	  					link='/projects/vivi-cosplay' 
-	  					photo={photos_vivi[0].src}
-	  					title='Vivi Cosplay'	
-						caption="Complete with LED-matrix eyes! I don't know why I haven't played Final Fantasy IX yet."
-	  				/> 
-
                   </MDBCol>
 
 	  			</MDBRow>
